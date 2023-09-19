@@ -33,7 +33,9 @@ header{
 .border{
     border: 2px dashed black;
 }
-
+.symbol{
+    font-weight: 800;
+}
 
 
 /* logo  */
@@ -192,7 +194,22 @@ h3{
 .special{   
     width: 400px;
     flex-shrink: 0;
-    background: hsl(0deg 78.87% 72.16%)   
+    background: hsl(205.71deg 9.09% 15.1%);   
+}
+.flag{
+    height: 1rem;
+}
+.col h3{
+    margin-bottom: 1rem; 
+    color: hsl(227.18deg 58.19% 65.29%);   
+}
+.italiano{
+    color: white;
+}
+.icons{
+    padding-top: 1rem;
+    display: flex;
+    gap: 1rem;
 }
 hr{
     color: white;
