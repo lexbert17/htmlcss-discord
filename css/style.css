@@ -38,6 +38,7 @@ header{
 }
 
 
+
 /* logo  */
 .logo{
     padding: 0.5rem; 
@@ -174,7 +175,7 @@ h3{
 }
 /* black block  */
 .black{
-    padding: 2rem 10%;
+    padding-top: 2rem;
     min-height: 500px;
     display: flex;
     background-color:hsl(205.71deg 9.09% 15.1%);
@@ -187,7 +188,7 @@ h3{
 .col{
    width: calc(100% / 5);
    min-height: 350px;
-   background-color:hsl(176.69deg 68.72% 41.37%) ;
+   background-color:hsl(205.71deg 9.09% 15.1%);
    border: 2px dashed white; 
 }
 /* special pink column */
@@ -210,6 +211,14 @@ h3{
     padding-top: 1rem;
     display: flex;
     gap: 1rem;
+}
+.about-us{
+    display: block;
+    padding-top: 4rem;
+    color: lightgrey;
+}
+h5{
+    color:hsl(227.18deg 58.19% 65.29%);
 }
 hr{
     color: white;
