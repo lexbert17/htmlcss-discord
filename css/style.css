@@ -175,21 +175,16 @@ h3{
 }
 /* black block  */
 .black{
-    padding-top: 2rem;
+    padding: 2rem 0 1rem 0;
     min-height: 500px;
     display: flex;
     background-color:hsl(205.71deg 9.09% 15.1%);
+    
 }
 /* column */
 .black-border{
-    display: flex;
-    width: 100%;   
-}
-.col{
-   width: calc(100% / 5);
-   min-height: 350px;
-   background-color:hsl(205.71deg 9.09% 15.1%);
-   border: 2px dashed white; 
+    display: flex; 
+    border-bottom: 1px solid hsl(227.18deg 58.19% 65.29%);  
 }
 /* special pink column */
 .special{   
@@ -220,10 +215,9 @@ h3{
 h5{
     color:hsl(227.18deg 58.19% 65.29%);
 }
-hr{
-    color: white;
-}
+
 footer{
+    
     min-height: 3rem;
     display: flex;
     flex-direction: row;
@@ -231,16 +225,18 @@ footer{
     padding: 10px 0 0 0;
 }
 .last-part{
-    padding: 0.5rem 0;
+    padding: 0 2.5rem 3rem 2.5rem;
     width: 80%;
-    background-color: hsl(159.84deg 100% 74.9%);
     display: flex;
     justify-content: space-between;    
 }
-/* logo and button  */
-.pink-logo,.button{
-    background-color: hsl(350.14deg 100% 85.69%);
-    border: 1px dashed black;
+
+.button-registration{
+    line-height: 0;
+    padding: 3px;
+    border-radius: 30px;
+    background-color:hsl(227.18deg 58.19% 65.29%) ;
+    color: white;
 }
 
 
