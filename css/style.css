@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* HEADER  */
+header{
+    min-height: 3rem;
+    justify-content: center;
+    background-color: hsl(222.77deg 81.59% 53.14%);
+    padding: 10px;   
+}
+.continer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+/* part in common */
+.navigation{
+    background-color: hsl(222.77deg 81.59% 53.14%);
+    
+}
+.container{
+    justify-content: center;
+}
+.border{
+    border: 2px dashed black;
+}
+
+
+
+/* logo  */
+.logo{
+    padding: 0.5rem; 
+    width: 20%
+}
+/* link  */
+nav{
+    padding: 0 50px;
+    width: 60%;     
+}
+ul{
+    display: flex; 
+    padding-left: 2rem; 
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    justify-content: center;    
+}
+li{
+    margin: 1rem;  
+    list-style-type: none;     
+}
+/* /link */
+
+/* login */
+.login{
+    width: 20%;
+    align-self: center;
+    background-color: hsl(222.77deg 81.59% 53.14%);    
+}
+.credenziali{
+    color: black;
+}
+.accedi{  
+    background-color: white;
+    line-height: 0.2rem;
+    padding: 5px;
+    border-radius: 30px;
+    float: right;
+}
+/* first block */
+.dark-blue{
+    min-height: 400px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    display: flex;
+    padding: 2rem 0;
+}
+h2{
+    font-size: 2.8rem;
+    margin-bottom: 2.8rem;
+}
+p{
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+.link{
+    justify-content: center;
+}
+.dark-pink{
+    text-align: center;
+    padding-top: 7rem;
+    min-height: 200px;
+    width: 50%; 
+    color: white;  
+    margin-bottom: 3.5rem;
+}
+
+.buttons{
+    line-height: 0.5rem;
+    padding: 15px;
+    border-radius: 30px;
+}
+.download-white{
+    color: black;
+    background-color: white;
+}
+.open-browser{
+    background-color: black;
+}
+
+/* second-fourth block  */
+.white{
+    min-height: 500px;
+    padding: 6rem 0;
+    display: flex;
+    background-color: hsl(0deg 0% 100%);
+}
+.pic{
+    margin-top: 3rem;
+    min-height: 350px;
+    width: 50%;   
+}
+/* aside  */
+.description{
+    margin-top: 3rem;
+    padding-top: 2rem;
+    min-height: 350px;
+    width: 30%;   
+}
+/* third block  */
+.grey{
+    min-height: 500px;
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: hsl(0deg 0% 96.47%);
+}
+/* biggest block  */
+.biggest{
+    min-height: 800px;
+    background-color:  hsl(0deg 0% 82.75%);
+    display: flex;
+    padding: 6rem 0;
+}
+.big{
+    width: 80%; 
+    text-align: center; 
+    padding-top: 2rem 
+}
+h3{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+.purple{
+    background-color: hsl(227.18deg 58.19% 65.29%);
+}
+.scarica{
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+/* black block  */
+.black{
+    padding: 2rem 10%;
+    min-height: 500px;
+    display: flex;
+    background-color:hsl(205.71deg 9.09% 15.1%);
+}
+/* column */
+.black-border{
+    display: flex;
+    width: 100%;   
+}
+.col{
+   width: calc(100% / 5);
+   min-height: 350px;
+   background-color:hsl(176.69deg 68.72% 41.37%) ;
+   border: 2px dashed white; 
+}
+/* special pink column */
+.special{   
+    width: 400px;
+    flex-shrink: 0;
+    background: hsl(0deg 78.87% 72.16%)   
+}
+hr{
+    color: white;
+}
+footer{
+    min-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(205.71deg 9.09% 15.1%);
+    padding: 10px 0 0 0;
+}
+.last-part{
+    padding: 0.5rem 0;
+    width: 80%;
+    background-color: hsl(159.84deg 100% 74.9%);
+    display: flex;
+    justify-content: space-between;    
+}
+/* logo and button  */
+.pink-logo,.button{
+    background-color: hsl(350.14deg 100% 85.69%);
+    border: 1px dashed black;
+}
+
+
+
