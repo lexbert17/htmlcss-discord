@@ -142,6 +142,10 @@ p{
 h3{
     margin-top: 6rem;
     margin-bottom: 3rem;
+    background-image: url(../img/stars.svg);
+    line-height: 3rem;
+    display: inline-block;
+    width: 50%;  
 }
 .download-for-mac-2{
     background-color: hsl(227.18deg 58.19% 65.29%); 
